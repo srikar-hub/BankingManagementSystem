@@ -5,8 +5,8 @@ import java.util.Scanner;
 public class Customer {
     Scanner sc = new Scanner(System.in);
     private String Cname;
-    private int Cid;
-    private int Camount;
+    private long Cid;
+    private long Camount;
 
     public String getCname() {
         return Cname;
@@ -16,19 +16,19 @@ public class Customer {
         Cname = cname;
     }
 
-    public int getCid() {
+    public long getCid() {
         return Cid;
     }
 
-    public void setCid(int cid) {
+    public void setCid(long cid) {
         Cid = cid;
     }
 
-    public int getCamount() {
+    public long getCamount() {
         return Camount;
     }
 
-    public void setCamount(int camount) {
+    public void setCamount(long camount) {
         Camount = camount;
     }
 
