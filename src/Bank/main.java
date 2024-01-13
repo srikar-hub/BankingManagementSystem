@@ -35,7 +35,7 @@ public class main {
 			c1.depositeAmount();		
 			  break;
 		case 5:
-			c1.displayAfterDebit();
+			c1.displayBalance();
 			break;
 		}
 	 }while(i!=0);

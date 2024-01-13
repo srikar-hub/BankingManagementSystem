@@ -82,7 +82,7 @@ public class Customers {
 		}
 		
 	}
-	public void displayAfterDebit() {
+	public void displayBalance() {
         System.out.println("Customer Balance");
         System.out.println("Customer-Name\t\tCustomer-Adhar\t\tCutomer-DepositeAmount");
 
